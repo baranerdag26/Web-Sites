@@ -1,0 +1,193 @@
+html,body{
+    height:100%;
+ }
+
+
+body{
+    margin: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+    background-color: #F4DFBA;
+    
+}
+
+h1{
+    font-size: 4rem;
+    
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header {
+    
+    
+    background: black;
+    overflow: hidden;
+}
+
+header .carousel{
+    height: 20rem;
+}
+
+header img{
+    height: 32rem;
+    
+    background-position: center;
+    width: 100vw;
+    object-fit: cover;
+    
+    
+}
+
+#first{
+    
+    height: 32rem;
+    
+    background-position: center !important;
+    width: 100vw;
+    object-fit: cover;
+    
+    
+    
+    
+}
+
+
+main .carousel{
+    height: 20rem;
+}
+
+main img{
+    height: 20rem;
+}
+
+main .card{
+    background-color: #CA965C;
+}
+
+main .card i{
+    font-size: 4em;
+    color: #000;
+}
+
+main .card img{
+    height: 4em;
+    width: 4em;
+}
+
+main span{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+main{
+    text-align: center;
+    
+}
+
+
+
+
+@media(min-width:1000px) {
+    .myframe {
+    
+        margin:auto !important; 
+    }
+}
+
+
+@media(max-width:1000px) {
+    .myframe {
+        width: 40vw;
+        margin-left: 0!important; 
+    }
+}
+
+#bottom span{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#bottom p{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 4rem;
+}
+
+@media(max-width:768px) {
+    #bottom .contact{
+       margin-top: 3rem !important; 
+    }
+
+    #bottom p{
+        margin-top: 1rem;
+    }
+
+    .myframe {
+       
+        margin-top: 1rem!important; 
+    }
+
+   h1{
+    display: none;
+   }
+
+}
+
+#bottom{
+    padding-bottom: 2rem !important;
+    background-color: #CA965C;
+}
+
+#bottom .loc{
+    margin-top: 1rem !important;
+}
+
+#bottom a img{
+    width: 30px;
+}
+
+.fa-instagram {
+    font-size: 3em !important;
+    color: purple;
+}
+
+.fa-phone{
+    font-size: 3em !important;
+}
+
+
+#bottom a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer{
+    height: 5rem;
+    background-color: #876445;
+}
+
+#gallery img{
+    
+    width: 100%;
+    
+}
+
+
+#wp{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#wp img{
+   width: 100px;
+}
+
+#gallery video{
+    background-color: #CA965C;
+}
